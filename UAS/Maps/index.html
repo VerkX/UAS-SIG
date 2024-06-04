@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Pribadi</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">Home</a>
+        <h1>Lokasi Mall Medan</h1>
+    </header>
+    <div id="map"></div>
+    <div class="contact-form">
+        <h2>Saran dan Masukan</h2>
+        <p>Ingin memberikan saran atau masukan? <a href="#" id="openModal">Klik di sini</a>.</p>
+    </div>
+    <footer>
+        &copy; Semua hak cipta dilindungi.
+    </footer>
+
+    <!-- The Modal -->
+    <div id="feedbackModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Saran dan Masukan</h2>
+            <form action="your-feedback-endpoint" method="POST">
+                <input type="text" name="name" placeholder="Nama" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="feedback" rows="5" placeholder="Saran atau Masukan" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+    <script src="map.js"></script>
+</body>
+</html>

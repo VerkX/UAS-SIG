@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Index 1 - About Me */
+  .index .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .index .container img {
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+  }
+  
+  .index .content {
+    max-width: 600px;
+  }
+  
+  .index h1 {
+    font-size: 2em;
+  }
+  
+  .index p {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Index 2 - About You */
+  .index2 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .index2 .content {
+    max-width: 600px;
+    margin-right: 20px;
+  }
+  
+  .index2 .container img {
+    width: 200px;
+    height: 300px;
+  }
+  
+  .index2 h1 {
+    font-size: 2em;
+  }
+  
+  .index2 p {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Index 3 - Experiences and Skills */
+  .index3 .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+  
+  .index3 .container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .index3 .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  .index3 .content {
+    width: 45%;
+  }
+  
+  .index3 h2 {
+    font-size: 1.5em;
+  }
+  
+  .index3 p {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Index 4 - Team Tugas Sistem Informasi Geografis */
+  .index4{
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .index4 h1 {
+    margin-top: 20px;
+    font-size: 1.5em;
+  }
+  
+  .index4 .member {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .index4 .member img {
+    margin-right: 20px;
+    object-fit: fill;
+    width: 200px;
+  }
+  
+  .index4 .member .info {
+    flex-grow: 1;
+    max-width: 600px;
+  }
+  
+  .index4 .member .info h2 {
+    margin: 0 0 5px;
+    font-size: 1.2em;
+  }
+  
+  .index4 .member .info p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+  
+  /* Index 5 - Project Description */
+  .index5{
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .index5 h1{
+    text-align: center;
+  }
+  .index5 .content {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px 0;
+  }
+  
+  .index5 .content h1 {
+    font-size: 1.5em;
+  }
+  
+  .index5 .content p {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .index5 .screenshots {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .index5 .screenshots img {
+    width: 200px;
+    height: 150px;
+  }
+  
